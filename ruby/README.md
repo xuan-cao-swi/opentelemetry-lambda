@@ -38,7 +38,7 @@ zip -qr ../../../<your_layer_name>.zip ruby/
 cd -
 
 # or run following script
-zip_ruby_layer.sh -n <your_layer_name>
+./zip_ruby_layer.sh -n <your_layer_name>
 ```
 
 ### Why build layer this way

@@ -2,4 +2,7 @@ source 'https://rubygems.org'
 
 gem 'opentelemetry-sdk'
 gem 'opentelemetry-exporter-otlp'
-gem 'opentelemetry-instrumentation-all'
+
+source "https://packagecloud.io/solarwinds/opentelemetry-instrumentation-aws_lambda/" do
+  gem "opentelemetry-instrumentation-aws_lambda", '0.0.2'
+end
